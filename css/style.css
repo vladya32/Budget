@@ -1,7 +1,3 @@
-/**********************************************
-*** GENERAL
-**********************************************/
-
 * {
     margin: 0;
     padding: 0;
@@ -27,13 +23,9 @@ body {
 .red { color: #FF5049 !important; }
 .red-focus:focus { border: 1px solid #FF5049 !important; }
 
-/**********************************************
-*** TOP PART
-**********************************************/
-
 .top {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/back.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -107,12 +99,6 @@ body {
     border-radius: 3px;
 }
 
-
-/**********************************************
-*** BOTTOM PART
-**********************************************/
-
-/***** FORM *****/
 .add {
     padding: 14px;
     border-bottom: 1px solid #e7e7e7;
